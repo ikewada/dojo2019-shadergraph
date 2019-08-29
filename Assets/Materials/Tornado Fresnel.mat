@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tornado Fresnel
+  m_Shader: {fileID: -6465566751694194690, guid: 3dada44f4dc8feb4186a9ec464833699,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7949B469:
+        m_Texture: {fileID: 2800000, guid: adaefadd9b3fcf34993b781cc24d1b45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_D842C3F2:
+        m_Texture: {fileID: 2800000, guid: 26d4d4df9e2e86d47890973213e1cb07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: adaefadd9b3fcf34993b781cc24d1b45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 122b515ad71303a408532787bac66dfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMask:
+        m_Texture: {fileID: 2800000, guid: 122b515ad71303a408532787bac66dfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D4DED2B0_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 122b515ad71303a408532787bac66dfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 26d4d4df9e2e86d47890973213e1cb07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_58A411DB_Out:
+        m_Texture: {fileID: 2800000, guid: 26d4d4df9e2e86d47890973213e1cb07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_8A692A62: 0
+    - Boolean_EBC1F835: 0
+    - Vector1_85F9914F: 0.5
+    - Vector1_9A2EA673: 0.06
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _CircularMotionFrequency: 2
+    - _CircularMotionSize: 0.3
+    - _CircularMotionSpeed: 3
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _Fresnel: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _LargeWaveFrequency: 2
+    - _LargeWaveOffset: 1.5
+    - _LargeWaveRadius: 0.5
+    - _LargeWaveSpeed: 4
+    - _Metallic: 0
+    - _NoiseTextureSize: 30
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RotateSpeed: 10
+    - _SmallWaveFrequency: 4
+    - _SmallWaveSize: 0.05
+    - _SmallWaveSpeed: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 3
+    - _SpinSpeed: 0.5
+    - _SrcBlend: 1
+    - _StormSpeed: 0.6
+    - _Surface: 0
+    - _Thre: 0.77
+    - _Threshold: 0.53
+    - _UpDesaturation: 10
+    - _WaveDiscance: 0.15
+    - _WaveDistance: 3
+    - _WaveFrequency: 6
+    - _WaveSize: 0.1
+    - _WaveSpeed: 0.5
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - Vector3_9C23A941: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color: {r: 0.78752285, g: 2.1185474, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NoiseScrollSpeed: {r: 0.1, g: -0.5, b: -0.1, a: -1}
+    - _OpacityMaskSpeed: {r: 0, g: -0.5, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpinCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _SpinStrength: {r: 10, g: 0.5, b: 0, a: 0}
+    - _TextureScrollSpeed: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - _TintColor: {r: 0.94509804, g: 0.70980394, b: 0.07450981, a: 0.5137255}
+--- !u!114 &5932888972323888943
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
